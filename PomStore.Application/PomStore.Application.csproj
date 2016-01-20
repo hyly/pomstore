@@ -88,6 +88,7 @@
     </Reference>
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -106,6 +107,10 @@
     <Compile Include="Roles\Dto\UpdateRolePermissionsInput.cs" />
     <Compile Include="Sales\Dto\CreateOrderInput.cs" />
     <Compile Include="Sales\Dto\CreateReOrderInput.cs" />
+    <Compile Include="Sales\Dto\OrderDto.cs" />
+    <Compile Include="Sales\Dto\OrderItemDto.cs" />
+    <Compile Include="Sales\Dto\ProductDto.cs" />
+    <Compile Include="Sales\Dto\ReOrderDto.cs" />
     <Compile Include="Sales\Dto\SalesServiceOutput.cs" />
     <Compile Include="Sales\ISalesAppService.cs" />
     <Compile Include="Sales\SalesAppService.cs" />

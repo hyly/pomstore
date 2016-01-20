@@ -9,7 +9,8 @@ namespace PomStore.Sales
 {
     public interface ISalesAppService:IApplicationService
     {
-        SalesServiceOutput CreateOrder(CreateOrderInput input);
-        SalesServiceOutput CreateReOrder(CreateReOrderInput input); 
+        OrderDto CreateOrder(CreateOrderInput input);
+        ReOrderDto CreateReOrder(CreateReOrderInput input);
+        List<ProductDto> SearchProductByName(string name);
     }
 }
